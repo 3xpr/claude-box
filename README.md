@@ -65,3 +65,7 @@ Git identity comes from `.env` (`GIT_AUTHOR_*` / `GIT_COMMITTER_*`), passed as e
 test/cbox_test.sh                                                  # wrapper, no Docker needed
 docker run --rm -v "$PWD/test/smoke.sh:/smoke.sh:ro" claude-box bash /smoke.sh   # image
 ```
+
+## License
+
+GNU General Public License v3.0 or later (GPL-3.0-or-later). See [LICENSE.txt](LICENSE.txt).
