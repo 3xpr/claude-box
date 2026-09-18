@@ -1,0 +1,10 @@
+{
+  "autoMode": {
+    "environment": [
+      "**Isolation**: Docker container. Only the current project directory is bind-mounted from the host at its real path; nothing else on the host is reachable.",
+      "**Secrets**: none mounted — no SSH keys, no cloud credentials, no tokens beyond Claude Code's own login.",
+      "**Network**: unrestricted egress; no host ports published.",
+      "**Trusted repo**: the mounted project directory (the container's working directory)."
+    ]
+  }
+}
